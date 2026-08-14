@@ -1,0 +1,21 @@
+:root {
+  --bg: #0a1a2e;
+  --panel: #062746;
+  --panel-alt: #0c2033;
+  --border: #1c3a54;
+  --border-active: #2dd4bf;
+  --accent: #2dd4bf;
+  --accent-soft: #5eead4;
+  --cyan-icon: #38d9e8;
+  --text-primary: #f3f7fa;
+  --text-secondary: #8fa8bd;
+  --text-muted: #5c7891;
+  --green: #4ade80;
+  --toggle-off: #33475b;
+  --log-dot-on: #2dd4bf;
+  --log-dot-info: #3ba7d6;
+  --error: #ef4444;
+  --error-soft: #fca5a5;
+  --log-dot-error: #ef4444;
+  --font-stack: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}

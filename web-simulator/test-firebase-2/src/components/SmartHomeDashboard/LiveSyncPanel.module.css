@@ -1,0 +1,76 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+  background: var(--panel);
+  border-left: 1px solid var(--border);
+  height: 100%;
+  overflow-y: auto;
+}
+
+.statusLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+
+.statusDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  flex-shrink: 0;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.statusText {
+  font-size: 13px;
+  color: var(--accent-soft);
+}
+
+.logHeader {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.logList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viewAll {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--accent);
+  font-size: 13px;
+  text-align: center;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+
+.viewAll:hover {
+  background: rgba(45, 212, 191, 0.08);
+}
+
+.viewAll:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

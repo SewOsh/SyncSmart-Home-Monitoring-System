@@ -1,0 +1,31 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Kotlin incremental-compilation cache — machine-specific, regenerated on build.
+.kotlin
+
+# JVM crash dumps Gradle leaves behind when the daemon runs out of memory.
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+
+# IDE state. The .idea entries above only cover a few files; these are the rest of
+# the per-machine ones (the shared parts of .idea are intentionally still tracked).
+/.idea/deploymentTargetSelector.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/appInsightsSettings.xml
+/.idea/androidTestResultsUserPreferences.xml
+/.idea/misc.xml

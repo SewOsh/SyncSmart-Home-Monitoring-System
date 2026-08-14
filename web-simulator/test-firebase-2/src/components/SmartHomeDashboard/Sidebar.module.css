@@ -1,0 +1,90 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 16px;
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+  height: 100%;
+  overflow-y: auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sectionLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0 4px;
+  margin-bottom: 4px;
+}
+
+.floorList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.floorBtn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 14px;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.floorBtn:hover {
+  background: rgba(45, 212, 191, 0.05);
+  color: var(--text-primary);
+}
+
+.floorActive {
+  background: rgba(45, 212, 191, 0.08);
+  border-color: var(--border-active);
+  color: var(--text-primary);
+}
+
+.floorBtn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.roomList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hintBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  background: rgba(45, 212, 191, 0.06);
+  border: 1px solid rgba(45, 212, 191, 0.12);
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-top: auto;
+}
+
+.hintBox svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+}

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "376595843315",
+    "firebase_url": "https://syncsmart-7ec79-default-rtdb.firebaseio.com",
+    "project_id": "syncsmart-7ec79",
+    "storage_bucket": "syncsmart-7ec79.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376595843315:android:0007c5deacc38c13104f86",
+        "android_client_info": {
+          "package_name": "com.example.syncsmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlBs5CNug4RAn6TZ64IAH10_EWPcwET9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

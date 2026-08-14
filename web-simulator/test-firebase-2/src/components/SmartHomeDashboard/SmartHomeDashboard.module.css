@@ -1,0 +1,51 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 240px 1fr 300px;
+  gap: 24px;
+  padding: 24px;
+  flex: 1;
+  min-height: 0;
+}
+
+.content {
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.floorGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.floorDivider {
+  height: 1px;
+  background: var(--border);
+  margin: 32px 0;
+}
+
+.roomSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.roomTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.deviceRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}

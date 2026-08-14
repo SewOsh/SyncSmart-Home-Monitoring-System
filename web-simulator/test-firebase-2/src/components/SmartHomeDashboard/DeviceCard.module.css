@@ -1,0 +1,129 @@
+.card {
+  background: var(--panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1 1 300px;
+  min-width: 260px;
+}
+
+.cameraCard {
+  flex: 1 1 100%;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.iconChip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: rgba(45, 212, 191, 0.08);
+  border: 1px solid rgba(45, 212, 191, 0.15);
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.status {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.statusOnline {
+  font-size: 14px;
+  color: var(--accent-soft);
+}
+
+.statusOffline {
+  font-size: 14px;
+  color: var(--error-soft);
+}
+
+.cameraFeed {
+  margin-top: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.cameraVideo {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cameraError {
+  margin-top: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.4);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.errorLabel {
+  font-size: 16px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.countdownRow {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.countdown {
+  font-family: 'JetBrains Mono', 'Consolas', 'Courier New', monospace;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent-soft);
+  letter-spacing: 0.5px;
+}
+
+.countdownUrgent {
+  color: var(--error-soft);
+}
+
+.cancelBtn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 5px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+}
+
+.cancelBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
